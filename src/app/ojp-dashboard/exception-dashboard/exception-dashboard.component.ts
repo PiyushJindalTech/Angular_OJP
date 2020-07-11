@@ -42,7 +42,7 @@ export class ExceptionDashboardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.PopUp.DisplayPopMessage('Tilte', 'Piyush', MessageType)
+    this.PopUp.DisplayPopMessage('Tilte', 'Piyush', MessageType.alert)
     //this.getexceptionEmployee('', 1);
   }
 
