@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { SaveExceptionEmployeeModel } from './model/api.model'
+import * as XLSX from 'xlsx';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ojp-exception';
+
 }
