@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserAccountComponent implements OnInit {
 
-  AccountType: string = "Sign Up"
+  AccountType: string = "Sign Up";
   constructor() { }
 
   ngOnInit(): void {

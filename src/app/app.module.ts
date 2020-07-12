@@ -26,7 +26,11 @@ import { UserAccountComponent } from './user-account/user-account.component';
     ExceptionDashboardComponent,
     AuthComponent,
     BulkUploadComponent,
+<<<<<<< HEAD
     UserAccountComponent
+=======
+    DashboardComponent,
+>>>>>>> ba0736ff138e6db7c582f25e0d1de577af3e0b01
   ],
   imports: [
     BrowserModule,
