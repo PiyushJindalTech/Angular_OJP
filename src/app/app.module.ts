@@ -13,6 +13,8 @@ import { RemarksComponent } from './ojp-dashboard/remarks/remarks.component';
 import { ExceptionDashboardComponent } from './ojp-dashboard/exception-dashboard/exception-dashboard.component';
 import { AuthComponent } from './auth/auth.component';
 import { BulkUploadComponent } from './ojp-dashboard/bulk-upload/bulk-upload.component';
+import { UserAccountComponent } from './user-account/user-account.component';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { BulkUploadComponent } from './ojp-dashboard/bulk-upload/bulk-upload.com
     ExceptionDashboardComponent,
     AuthComponent,
     BulkUploadComponent,
+    UserAccountComponent
   ],
   imports: [
     BrowserModule,
